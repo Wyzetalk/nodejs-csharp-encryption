@@ -5,7 +5,7 @@ const data = process.argv[3];
 
 var encrypted = Encryption(data, key);
 
-console.log ("dotnet run", key, encrypted)
+console.log (`dotnet run '${key}' '${encrypted}'`)
 
 function Encryption(hexString, enckey) {
 
