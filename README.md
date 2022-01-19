@@ -84,7 +84,7 @@ To install additional .NET runtimes or SDKs:
 
 ## DOTNET Runtime change
 
-The dn/db.csproj file has:
+The dn/dn.csproj file has:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
