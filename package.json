@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-csharp-encryption",
+  "version": "1.0.0",
+  "description": "Enrypt in NodeJS for Decryption in C#",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wyzetalk",
+  "contributors": ["Gerhard Pretorius", "Kaelin Pather"],
+  "license": "None",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
