@@ -2,7 +2,7 @@
 
 ## NodeJS encryption for C# decryption
 
-Sometimes you need to send an encrypted piece of data to an ASP.NET app from nodejs application.
+Sometimes you need to send an encrypted piece of data to an ASP.NET app from nodejs.
 
 ### Quick start
 
@@ -46,9 +46,11 @@ Encryption key length is 128 (16 chars)
 
 ## TODO
 
-Tried with 256 but could not see it through. Anyone with suggestions welcome
+Tried with 256 but could not see it through. Anyone with suggestions are welcome to send PR.
 
 ## DOTNET on a Mac
+
+DOTNET Core runs on a Mac of course.
 
 `dotnet --info`
 
@@ -97,4 +99,4 @@ The dn/dn.csproj file has:
 </Project>
 ```
 
-You might need to change the target framework from netcoreapp3.1 to whatever you have installed
+You might need to change the target framework from netcoreapp3.1 to whatever you have installed.
