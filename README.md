@@ -6,6 +6,12 @@ Sometimes you need to send an encrypted piece of data to an ASP.NET app from nod
 
 ### Quick start
 
+Using node 12 at least. (Assuming you have all that going)
+
+```
+npm i
+```
+
 ```
 node quick-start.js
 ```
