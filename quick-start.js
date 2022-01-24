@@ -9,7 +9,7 @@ const json = {
 }
 
 const data = JSON.stringify(json)
-exec(`node index.js ${key} '${data}'`, (error, stdout, stderr) => {
+exec(`node encrypt.js ${key} '${data}'`, (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
